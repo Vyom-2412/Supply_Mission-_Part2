@@ -28,7 +28,7 @@ function setup() {
 	groundSprite=createSprite(width/2, height-35, width,10);
 	groundSprite.shapeColor=color(255);
 
-	packageBody = Bodies.circle(width/2,200,5,{restitution:0.3,isStatic:true});
+	packageBody = Bodies.circle(width/2,200,5,{restitution:0.6,isStatic:true});
 	World.add(world, packageBody);
 
 	Right_Box = Bodies.rectangle(510,610,20,100,{isStatic:true});
